@@ -1,74 +1,72 @@
-{
-  "all": [
-    {
-      "_id": "58e008ad0aac31001185ed0c",
-      "text": "The frequency of a domestic cat's purr is the same at which muscles and bones repair themselves.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 5,
-      "userUpvoted": null
+[
+  {
+    "id": "58e008ad0aac31001185ed0c",
+    "text": "The frequency of a domestic cat's purr is the same at which muscles and bones repair themselves.",
+    "type": "cat",
+    "user": {
+      "id": "58e007480aac31001185ecef",
+      "fullname": {
+        "first": "Kasimir",
+        "last": "Schulz"
+      }
     },
-    {
-      "_id": "68e008ad0aac31001185ed0c",
-      "text": "Cats make about 100 different sounds. Dogs make only about 10.",
-      "type": "cat",
-      "user": {
-        "_id": "58e007480aac31001185ecef",
-        "name": {
-          "first": "Kasimir",
-          "last": "Schulz"
-        }
-      },
-      "upvotes": 3,
-      "userUpvoted": null
+    "upvotes": 5,
+    "userUpvoted": null
+  },
+  {
+    "id": "68e008ad0aac31001185ed0c",
+    "text": "Cats make about 100 different sounds. Dogs make only about 10.",
+    "type": "cat",
+    "user": {
+      "id": "58e007480aac31001185ecef",
+      "fullname": {
+        "first": "Kasimir",
+        "last": "Schulz"
+      }
     },
-    {
-      "_id": "78e008ad0aac31001185ed0c",
-      "text": "I don't know anything about cats.",
-      "type": "cat",
-      "user": {
-        "_id": "78e007480aac31001185ecef",
-        "name": {
-          "first": "Alex",
-          "last": "Cappa"
-        }
-      },
-      "upvotes": 2,
-      "userUpvoted": null
+    "upvotes": 3,
+    "userUpvoted": null
+  },
+  {
+    "id": "78e008ad0aac31001185ed0c",
+    "text": "I don't know anything about cats.",
+    "type": "cat",
+    "user": {
+      "id": "78e007480aac31001185ecef",
+      "fullname": {
+        "first": "Alex",
+        "last": "Cappa"
+      }
     },
-    {
-      "_id": "88e008ad0aac31001185ed0c",
-      "text": "I don't know anything about cats.",
-      "type": "cat",
-      "user": {
-        "_id": "78e007480aac31001185ecef",
-        "name": {
-          "first": "Alex",
-          "last": "Cappa"
-        }
-      },
-      "upvotes": 5,
-      "userUpvoted": null
+    "upvotes": 2,
+    "userUpvoted": null
+  },
+  {
+    "id": "88e008ad0aac31001185ed0c",
+    "text": "I don't know anything about cats.",
+    "type": "cat",
+    "user": {
+      "id": "78e007480aac31001185ecef",
+      "fullname": {
+        "first": "Alex",
+        "last": "Cappa"
+      }
     },
-    {
-      "_id": "98e008ad0aac31001185ed0c",
-      "text": "The technical term for a cat’s hairball is a bezoar.",
-      "type": "cat",
-      "user": {
-        "_id": "88e007480aac31001185ecef",
-        "name": {
-          "first": "Josh",
-          "last": "Wells"
-        }
-      },
-      "upvotes": 3,
-      "userUpvoted": null
-    }
-  ]
-}
+    "upvotes": 5,
+    "userUpvoted": null
+  },
+  {
+    "id": "98e008ad0aac31001185ed0c",
+    "text": "The technical term for a cat’s hairball is a bezoar.",
+    "type": "cat",
+    "user": {
+      "id": "88e007480aac31001185ecef",
+      "fullname": {
+        "first": "Josh",
+        "last": "Wells"
+      }
+    },
+    "upvotes": 11,
+    "userUpvoted": null
+  }
+]
