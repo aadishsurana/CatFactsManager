@@ -1,0 +1,58 @@
+﻿[
+  {
+    "id": "68e008ad0aac31001185ed0c",
+    "text": "Cats make about 100 different sounds. Dogs make only about 10.",
+    "type": "cat",
+    "user": {
+      "id": "58e007480aac31001185ecef",
+      "fullname": {
+        "first": "Tom",
+        "last": "Brady"
+      }
+    },
+    "upvotes": 3,
+    "userUpvoted": null
+  },
+  {
+    "id": "88e008ad0aac31001185ed0c",
+    "text": "I don't know anything about cats.",
+    "type": "cat",
+    "user": {
+      "id": "78e007480aac31001185ecef",
+      "fullname": {
+        "first": "Alex",
+        "last": "Cappa"
+      }
+    },
+    "upvotes": 5,
+    "userUpvoted": null
+  },
+  {
+    "id": "98e008ad0aac31001185ed0c",
+    "text": "The technical term for a cat’s hairball is a bezoar.",
+    "type": "cat",
+    "user": {
+      "id": "88e007480aac31001185ecef",
+      "fullname": {
+        "first": "Josh",
+        "last": "Wells"
+      }
+    },
+    "upvotes": 11,
+    "userUpvoted": null
+  },
+  {
+    "id": "58e008ad0aac31001185ed0c",
+    "text": "Cats are best friends",
+    "type": "cat",
+    "user": {
+      "id": "440007480aac31001185ecef",
+      "fullname": {
+        "first": "David",
+        "last": "Jones"
+      }
+    },
+    "upvotes": 1,
+    "userUpvoted": null
+  }
+]

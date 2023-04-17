@@ -15,7 +15,7 @@ namespace CatFacts.Tests
         public CatFactServiceTests()
         {
             _fixture = new Fixture().Customize(new AutoMoqCustomization());
-            _InputFile = @"./FactsText.json";
+            _InputFile = @"./FactsText1.json";
         }
 
         [Fact]
@@ -32,6 +32,40 @@ namespace CatFacts.Tests
             Assert.True(result["Kasimir Schulz"] == 8);
             Assert.True(result["Josh Wells"] == 11);
             Assert.True(result["Alex Cappa"] == 7);
+        }
+
+        [Fact]
+        public async Task CheckIfUserCollection_ProcessedSuccessfully_WhenUniqueUsersProvided()
+        {
+            //Arrange
+            _sut = new CatFactService();
+
+            //Act
+            var result = await _sut.ReadAllFacts(@"./FactsText2.json");
+
+            //Assert
+            Assert.True(result.Count == 4);
+            Assert.True(result["Tom Brady"] == 3);
+            Assert.True(result["Josh Wells"] == 11);
+            Assert.True(result["Alex Cappa"] == 5);
+            Assert.True(result["David Jones"] == 1);
+        }
+
+        [Fact]
+        public async Task CheckIfUserCollection_SortedInDescendingOrder_ByValue()
+        {
+            //Arrange
+            _sut = new CatFactService();
+
+            //Act
+            var result = await _sut.ReadAllFacts(_InputFile);
+
+            //Assert
+            Assert.Equal("Josh Wells", result.FirstOrDefault().Key);
+            Assert.True(result.FirstOrDefault().Value == 11);
+
+            Assert.Equal("Alex Cappa", result.LastOrDefault().Key);
+            Assert.True(result.LastOrDefault().Value == 7);
         }
     }
 }
