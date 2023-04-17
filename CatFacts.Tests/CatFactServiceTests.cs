@@ -67,5 +67,18 @@ namespace CatFacts.Tests
             Assert.Equal("Alex Cappa", result.LastOrDefault().Key);
             Assert.True(result.LastOrDefault().Value == 7);
         }
+
+        [Fact]
+        public async Task WhenFileNotFound_NullIsReturned()
+        {
+            //Arrange
+            _sut = new CatFactService();
+
+            //Act
+            var result = await _sut.ReadAllFacts("text.json");
+
+            //Assert
+           Assert.Null(result);
+        }
     }
 }
